@@ -39,8 +39,8 @@ class SwipeCards extends Component {
   setSize () {
     const container = ReactDOM.findDOMNode(this)
     const containerSize = {
-      x: container.offsetWidth,
-      y: container.offsetHeight
+      x: 100,
+      y: 100
     }
     this.setState({ containerSize })
   }
